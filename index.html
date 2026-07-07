@@ -1,70 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nunnaphat Chompoonuch | Data Scientist</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunnaphat Chompoonuch | Senior Data Analyst</title>
+    <meta name="description" content="Senior Data Analyst specializing in Vehicle Pricing, Market Intelligence, and ML-driven analytics across ASEAN markets.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
-<h1>Nunnaphat Chompoonuch</h1>
-<p>Senior Data Analyst • Machine Learning • Vehicle Pricing • Market Intelligence</p>
-<div class="buttons">
-<a href="#" class="btn">Download CV</a>
-<a href="https://github.com/nnoonzh" class="btn">GitHub</a>
-<a href="https://www.linkedin.com/" class="btn">LinkedIn</a>
-</div>
-</header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">NC</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
 
-<section>
-<h2>About Me</h2>
-<p>Data Analyst with 3+ years of experience delivering pricing intelligence, predictive modelling, and market analytics across automotive, fintech, and marketing industries. Experienced in Python, SQL, R, machine learning, forecasting, and data engineering.</p>
-</section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+            <h1 class="hero-name animate-fade-up">Nunnaphat Chompoonuch</h1>
+            <h2 class="hero-title animate-fade-up">Senior Data Analyst</h2>
+            <p class="hero-subtitle animate-fade-up">Vehicle Pricing & Market Intelligence · ASEAN</p>
+            <p class="hero-description animate-fade-up">
+                Building ML-driven models and data pipelines that power commercial decisions across automotive, fintech, and marketing.
+            </p>
+            <div class="hero-buttons animate-fade-up">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary"><i class="fas fa-code"></i> View Projects</a>
+            </div>
+            <div class="hero-social animate-fade-up">
+                <a href="https://github.com/nnoonzh" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nunnaphat-c-218318276/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:nunnaphat.cho@hotmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
 
-<section>
-<h2>Experience</h2>
-<div class="card">
-<h3>Vehicle Data Analyst — RedBook Thailand</h3>
-<p>Regression models, vehicle pricing, ASEAN market intelligence, AWS, Scrapy, PostgreSQL.</p>
-</div>
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Data Analyst with <strong>3+ years of experience</strong> delivering pricing intelligence, predictive modelling, and market analytics across the automotive, fintech, and marketing sectors in Thailand, ASEAN, and the UK.</p>
+                    <p>Proven ability to build and deploy <strong>ML-driven models</strong> (including regression, XGBoost, and time-series) that drive commercial decision-making. Experienced leading end-to-end analytics workflows — from building raw data pipelines to delivering executive-ready dashboards.</p>
+                    <p>Fluent English speaker with experience working in international, cross-timezone teams. Currently seeking a senior or lead analytics role at a high-impact organisation.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-globe-asia"></i>
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Markets Covered</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-brain"></i>
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">ML Models Built</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="stat-number">MSc</span>
+                        <span class="stat-label">Business Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h3>Senior Analytics Executive — VML</h3>
-<p>XGBoost forecasting, Power BI dashboards, Salesforce analytics, regional reporting.</p>
-</div>
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2024 – Present</span>
+                        <h3>Vehicle Data Analyst</h3>
+                        <h4>RedBook Thailand · Regional ASEAN Team</h4>
+                        <ul>
+                            <li>Built and refined vehicle pricing and residual value models using regression, time-series, and ML techniques (Python)</li>
+                            <li>Engineered data pipelines from Postgres databases, REST APIs, and web scrapers (Scrapy)</li>
+                            <li>Led sales-data-to-RedBook mapping across Thailand, Malaysia, and Singapore</li>
+                            <li>Migrated credentials to AWS Parameter Store via boto3 for improved security</li>
+                            <li>Built web scrapers using Scrapy and mobile-app API capture techniques</li>
+                            <li>Integrated generative AI tools to automate repetitive workflows</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Scrapy</span>
+                            <span>PostgreSQL</span>
+                            <span>AWS S3</span>
+                            <span>XGBoost</span>
+                            <span>boto3</span>
+                        </div>
+                    </div>
+                </div>
 
-<div class="card">
-<h3>Data Analyst — LOQBOX UK</h3>
-<p>NLP, TF-IDF, clustering, retention analytics.</p>
-</div>
-</section>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Mar 2024 – Apr 2025</span>
+                        <h3>Senior Analytics Executive</h3>
+                        <h4>VML (VMLY&R / Wunderman Thompson) — Ford Account</h4>
+                        <ul>
+                            <li>Developed XGBoost-based sales forecasting models in R with advanced attribution methods</li>
+                            <li>Delivered weekly and monthly forecasts informing resource allocation across 5 markets</li>
+                            <li>Built Power BI dashboards integrating Salesforce CRM and Google Search Trends</li>
+                            <li>Defined and tracked Vietnam market KPIs for media spend optimization</li>
+                            <li>Client-facing analytics consultant for senior stakeholders</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>R</span>
+                            <span>XGBoost</span>
+                            <span>Power BI</span>
+                            <span>Salesforce</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
 
-<section>
-<h2>Projects</h2>
-<div class="card">
-<h3>Vehicle Residual Value Prediction</h3>
-<p>Hierarchical regression model for used vehicle pricing.</p>
-</div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2022 – Mar 2023</span>
+                        <h3>Data Analyst (Consulting)</h3>
+                        <h4>LOQBOX · Fintech · Bristol, UK</h4>
+                        <ul>
+                            <li>Managed full analytics lifecycle for customer retention study</li>
+                            <li>Applied TF-IDF, clustering, and topic modelling to unstructured feedback</li>
+                            <li>Delivered visualisations shaping product and retention strategy</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>TF-IDF</span>
+                            <span>Clustering</span>
+                            <span>Topic Modelling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h3>ASEAN Vehicle Scraper</h3>
-<p>Scrapy pipelines collecting vehicle listings across ASEAN.</p>
-</div>
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>R</span>
+                        <span>SQL</span>
+                        <span>SPSS</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
 
-<div class="card">
-<h3>XGBoost Sales Forecasting</h3>
-<p>Forecasting sales across multiple ASEAN markets.</p>
-</div>
-</section>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span>Regression</span>
+                        <span>Time-Series</span>
+                        <span>XGBoost</span>
+                        <span>Clustering</span>
+                        <span>NLP</span>
+                        <span>TF-IDF</span>
+                    </div>
+                </div>
 
-<section>
-<h2>Skills</h2>
-<p>Python • SQL • R • Machine Learning • XGBoost • Time Series • NLP • Power BI • Tableau • AWS • PostgreSQL • Scrapy</p>
-</section>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Business Intelligence</h3>
+                    <div class="skill-tags">
+                        <span>Power BI</span>
+                        <span>Tableau</span>
+                        <span>Looker Studio</span>
+                        <span>Excel</span>
+                    </div>
+                </div>
 
-<footer>
-<p>Email: nunnaphat.cho@hotmail.com</p>
-</footer>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span>
+                        <span>REST APIs</span>
+                        <span>Scrapy</span>
+                        <span>AWS S3</span>
+                        <span>boto3</span>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-car"></i></div>
+                    <h3>Domain Expertise</h3>
+                    <div class="skill-tags">
+                        <span>Vehicle Pricing</span>
+                        <span>Residual Value</span>
+                        <span>Sales Forecasting</span>
+                        <span>Customer Retention</span>
+                        <span>Market Intelligence</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-language"></i></div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Thai (Native)</span>
+                        <span>English (Fluent)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>Vehicle Pricing Model</h3>
+                    <p>ML-driven vehicle pricing and residual value prediction for ASEAN markets using regression, time-series, and XGBoost.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>XGBoost</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <span class="project-status">Enterprise</span>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-icon"><i class="fas fa-spider"></i></div>
+                    <h3>Chobrod Data Collector</h3>
+                    <p>Web scraping system using Scrapy to collect vehicle listings across ASEAN and Middle East markets.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Scrapy</span>
+                        <span>AWS S3</span>
+                    </div>
+                    <a href="https://github.com/nnoonzh/rbt.chobrod_data_collector" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Sales Forecasting System</h3>
+                    <p>XGBoost-based sales forecasting with attribution methods for Ford's regional marketing across 5 markets.</p>
+                    <div class="project-tech">
+                        <span>R</span>
+                        <span>XGBoost</span>
+                        <span>Power BI</span>
+                    </div>
+                    <span class="project-status">Enterprise</span>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-hotel"></i></div>
+                    <h3>Dynamic Pricing Research</h3>
+                    <p>MSc Dissertation: Forecasting London hotel prices using NLP-derived review signals and ML models.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>NLP</span>
+                        <span>ML</span>
+                    </div>
+                    <span class="project-status">Academic</span>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-users"></i></div>
+                    <h3>Customer Retention Analysis</h3>
+                    <p>Full analytics for LOQBOX — TF-IDF, clustering, and topic modelling on customer feedback.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>NLP</span>
+                        <span>Clustering</span>
+                    </div>
+                    <span class="project-status">Consulting</span>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Leave Management App</h3>
+                    <p>Application for managing employee leave requests and approvals.</p>
+                    <div class="project-tech">
+                        <span>Web App</span>
+                    </div>
+                    <a href="https://github.com/nnoonzh/leaveapp" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="education-content">
+                        <h3>MSc Business Analytics</h3>
+                        <h4>University of Bristol</h4>
+                        <p class="education-date">Sep 2022 – Sep 2023 · Bristol, UK</p>
+                        <p class="education-grade">Graduated with Merit</p>
+                        <p class="education-thesis"><strong>Dissertation:</strong> Dynamic Pricing in London's Lodging Industry — forecasting hotel prices using NLP-derived review signals and Python-based ML models.</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-university"></i></div>
+                    <div class="education-content">
+                        <h3>BA Sociology & Anthropology</h3>
+                        <h4>Thammasat University</h4>
+                        <p class="education-date">Aug 2017 – Apr 2021 · Bangkok, Thailand</p>
+                        <p class="education-grade">GPA: 3.0</p>
+                        <p>Strong foundation in behavioural research methods and quantitative analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Currently looking for senior or lead analytics roles. Whether you have a question or just want to say hi, feel free to reach out!</p>
+            <div class="contact-grid">
+                <a href="mailto:nunnaphat.cho@hotmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>nunnaphat.cho@hotmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/nunnaphat-c-218318276/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>nunnaphat-c-218318276</p>
+                </a>
+                <a href="https://github.com/nnoonzh" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>nnoonzh</p>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Bangkok, Thailand</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Nunnaphat Chompoonuch. Built with <i class="fas fa-heart"></i> for data-driven decisions.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
